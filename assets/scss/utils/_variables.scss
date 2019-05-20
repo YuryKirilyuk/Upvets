@@ -1,0 +1,36 @@
+//* colors */
+
+$white: #fff;
+$black: #000;
+$red: #ae1c1c;
+$blue-dark: #172648;
+$grey: #979dad;
+$grey-dark: #404250;
+$grey-light: rgba(28,110,92,.05);
+
+$main-color: $black;
+$link-color: $main-color;
+
+//* main variables */
+
+$min-width: 320px;
+$max-width: 1720px;
+$base-bg: $white;
+$base-font-size: 1.9rem;
+$mobile-font-size: 1.4rem;
+$base-line-height: 2.6rem;
+$base-font-family: 'Gotham', sans-serif;
+//$custom-font-family: 'Roboto', sans-serif;
+
+//text, titles
+$text-color: $black;
+$title-color: $black;
+//$title-font-family: 'Vollkorn', serif;
+$title-font-weight: 600;
+
+
+$headerHeight: 7.2rem;
+$headerHeightMobile: 7.2rem;
+$footerHeight: 7rem;
+
+$default-transition: all .2s linear;

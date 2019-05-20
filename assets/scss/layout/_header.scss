@@ -1,0 +1,38 @@
+.top-header .container {
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: right;
+  @media screen and (max-width: 1450px) {
+    font-size: 2.6rem;
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 2.4rem;
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 2.2rem;
+    width: 90%;
+  }
+  @media screen and (max-width: 475px) {font-size: 2rem;}
+  @media screen and (max-width: 375px) {
+    font-size: 1.6rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    p {margin-bottom: 1rem;}
+  }
+  > p {
+    @media screen and (max-width: 1300px) {max-width: 50rem;}
+  }
+  .et-social-icons {
+    margin-left: 6.8555%;
+    white-space: nowrap;
+    @media screen and (max-width: 840px) {margin-left: 3%;}
+    @media screen and (max-width: 375px) {margin: 0;}
+    li {margin-left: 1rem;}
+    a {color: #979dad;}
+  }
+}//.top-header

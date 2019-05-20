@@ -1,0 +1,16 @@
+.persons-list {
+  text-align: center;
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+  }
+  .et_pb_image {
+    margin-left: .8rem !important;
+    margin-right: .8rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .et_pb_text {
+    font-weight: 500;
+    margin-bottom: 2rem !important;
+    text-align: center;
+  }
+}

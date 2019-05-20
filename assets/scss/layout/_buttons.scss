@@ -1,0 +1,15 @@
+#main-content .et_pb_button {
+  border: 1px solid;
+  height: 5rem;
+  font-size: 1.8rem;
+  line-height: 4.8rem !important;
+  padding: 0 !important;
+  text-align: center;
+  text-transform: uppercase;
+  width: 17rem;
+  @media screen and (max-width: 374px) {
+    font-size: 1.4rem;
+    height: 4rem;
+    line-height: 3.8rem !important;
+  }
+}

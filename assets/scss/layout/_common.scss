@@ -1,0 +1,75 @@
+html, body {height: 100%;}
+html {
+  font-size: 62.5%;
+  @media screen and (max-width: 1024px) {
+      //font-size: 71.4228%;
+  }
+}
+body {
+  background: $base-bg;
+  color: $main-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: normal;
+  line-height: $base-line-height !important;
+
+}
+
+button,
+select,  
+label[for], 
+input[type='submit'], 
+input[type='image']{
+  color: inherit;
+  cursor: pointer;		
+  outline: none !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input::-ms-clear {
+  display: none;
+}
+
+:disabled, [disabled], [aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: $default-transition;
+  &:hover {text-decoration: none;}
+  &:focus {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+strong {font-weight: 600;}
+b {font-weight: 500;}
+input, select, button, textarea {
+  font: inherit;
+  outline: none;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/*** PRE-DEFINED CLASSES ***/
+.inline {display: inline-block;}
+.hidden {display: none;}
+.disabled {pointer-events: none;}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

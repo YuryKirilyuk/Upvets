@@ -1,0 +1,28 @@
+/*
+Theme Name:  Upvets
+Template:    Divi
+Author:      Yury
+Version:     1.0.0
+*/
+
+@import url("../Divi/style.css");
+
+
+@import "utils/variables";
+@import "utils/mixins";
+//@import "utils/helpers";
+
+
+@import "layout/fonts";
+@import "layout/common";
+@import "layout/buttons";
+@import "layout/header";
+@import "layout/partials";
+@import "layout/navbar";
+@import "layout/forms";
+@import "layout/footer";
+
+@import "pages/home";
+@import "pages/programs";
+@import "pages/get_involved";
+@import "pages/about";

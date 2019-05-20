@@ -1,0 +1,19 @@
+@mixin background($color) {
+  background-color: $color;
+  &:hover {background-color: darken($color, 5%);}
+}
+@mixin truncate($arg) {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: $arg;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }
+}
